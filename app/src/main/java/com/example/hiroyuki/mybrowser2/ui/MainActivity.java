@@ -194,9 +194,8 @@ public class MainActivity extends Activity {
         String[] url = o.getUrl(item, newsIndex);
 
         if (url[0] != "") {
-            String[] a = url[0].split(",");
-            webView.loadUrl(a[0]);
-            //newsIndex = Integer.parseInt(a[1]);
+            webView.loadUrl(url[0]);
+            newsIndex = Integer.parseInt(url[1]);
             return super.onMenuItemSelected(featureId, item);
         } else {
             switch (item.getItemId()) {
