@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -165,6 +166,18 @@ public class MainActivity extends Activity {
             webView.loadUrl(url);
             Log.d("MyBrowser", "start(2)");
         }
+    }
+
+    //戻るボタンで前のページに戻る
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        //戻るボタンで前のページに戻る
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
+            webView.goBack();
+            return true;
+        }
+        Log.d("MyBrowser", "onKeyDown");
+        return super.onKeyDown(keyCode, event);
     }
 
     // オプション・メニューを作成
