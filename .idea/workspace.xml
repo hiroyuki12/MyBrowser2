@@ -18,12 +18,11 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MyBrowser" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9717f94b-635a-4a81-8b41-9c92fa7e3b90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/bools" afterPath="$PROJECT_DIR$/app/src/main/res/values/bools" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyBrowser2.iws" />
@@ -74,22 +73,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/ui/MainActivity.java">
+      <file leaf-file-name="bools" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bools">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.72">
-              <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
+            <state vertical-scroll-proportion="-1.2">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bools" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bools">
+      <file leaf-file-name="OptionMenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.073529415">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
+            <state vertical-scroll-proportion="0.3382353">
+              <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+              <folding>
+                <element signature="e#2125#2146#0" expanded="true" />
+                <element signature="e#2275#2290#0" expanded="true" />
+                <element signature="e#2348#2368#0" expanded="true" />
+                <element signature="e#2423#2440#0" expanded="true" />
+                <element signature="e#2497#2516#0" expanded="true" />
+                <element signature="e#2568#2587#0" expanded="true" />
+                <element signature="e#2639#2658#0" expanded="true" />
+                <element signature="e#2712#2729#0" expanded="true" />
+                <element signature="e#2784#2801#0" expanded="true" />
+                <element signature="e#2859#2879#0" expanded="true" />
+                <element signature="e#2926#2943#0" expanded="true" />
+                <element signature="e#3000#3019#0" expanded="true" />
+                <element signature="e#3080#3095#0" expanded="true" />
+                <element signature="e#3476#3494#0" expanded="true" />
+                <element signature="e#3553#3576#0" expanded="true" />
+                <element signature="e#3634#3648#0" expanded="true" />
+                <element signature="e#3772#3794#0" expanded="true" />
+                <element signature="e#4054#4070#0" expanded="true" />
+                <element signature="e#4156#4178#0" expanded="true" />
+                <element signature="e#4258#4277#0" expanded="true" />
+                <element signature="e#4365#4386#0" expanded="true" />
+                <element signature="e#4472#4494#0" expanded="true" />
+                <element signature="e#4576#4592#0" expanded="true" />
+                <element signature="e#4715#4743#0" expanded="true" />
+                <element signature="e#4902#4933#0" expanded="true" />
+                <element signature="e#5012#5038#0" expanded="true" />
+                <element signature="e#5119#5146#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1475,7 +1502,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/Entry.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/MainActivity.java" />
@@ -1492,6 +1518,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-v14/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/bools" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java" />
       </list>
     </option>
   </component>
@@ -1506,8 +1533,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="657" />
-    <option name="y" value="55" />
+    <option name="x" value="171" />
+    <option name="y" value="65" />
     <option name="width" value="1255" />
     <option name="height" value="828" />
   </component>
@@ -1680,7 +1707,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_7_2012_API_21" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values-w820dp" />
     <property name="FullScreen" value="false" />
@@ -1877,8 +1904,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="657" y="55" width="1255" height="828" extended-state="0" />
-    <editor active="false" />
+    <frame x="171" y="65" width="1255" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2140,14 +2167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.88">
-          <caret line="60" column="82" selection-start-line="60" selection-start-column="82" selection-end-line="60" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.72">
@@ -2224,9 +2243,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bools">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073529415">
+        <state vertical-scroll-proportion="-1.2">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hiroyuki/mybrowser2/model/OptionMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3382353">
+          <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+          <folding>
+            <element signature="e#2125#2146#0" expanded="true" />
+            <element signature="e#2275#2290#0" expanded="true" />
+            <element signature="e#2348#2368#0" expanded="true" />
+            <element signature="e#2423#2440#0" expanded="true" />
+            <element signature="e#2497#2516#0" expanded="true" />
+            <element signature="e#2568#2587#0" expanded="true" />
+            <element signature="e#2639#2658#0" expanded="true" />
+            <element signature="e#2712#2729#0" expanded="true" />
+            <element signature="e#2784#2801#0" expanded="true" />
+            <element signature="e#2859#2879#0" expanded="true" />
+            <element signature="e#2926#2943#0" expanded="true" />
+            <element signature="e#3000#3019#0" expanded="true" />
+            <element signature="e#3080#3095#0" expanded="true" />
+            <element signature="e#3476#3494#0" expanded="true" />
+            <element signature="e#3553#3576#0" expanded="true" />
+            <element signature="e#3634#3648#0" expanded="true" />
+            <element signature="e#3772#3794#0" expanded="true" />
+            <element signature="e#4054#4070#0" expanded="true" />
+            <element signature="e#4156#4178#0" expanded="true" />
+            <element signature="e#4258#4277#0" expanded="true" />
+            <element signature="e#4365#4386#0" expanded="true" />
+            <element signature="e#4472#4494#0" expanded="true" />
+            <element signature="e#4576#4592#0" expanded="true" />
+            <element signature="e#4715#4743#0" expanded="true" />
+            <element signature="e#4902#4933#0" expanded="true" />
+            <element signature="e#5012#5038#0" expanded="true" />
+            <element signature="e#5119#5146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

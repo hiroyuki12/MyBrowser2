@@ -61,32 +61,20 @@ public class OptionMenu {
         subMenuNews = menu.addSubMenu(Menu.NONE, SUB_MENU_NEWS, 0, R.string.subMenu_news);
         //subMenuNews.setIcon(android.R.drawable.ic_menu_directions);
 
-        subMenuNews.add(0, NIKKEI_NEWS_MENU_ID, 0, R.string.nikkei);
-        subMenuNews.add(0, GOOGLE_NEWS_MENU_ID, 1, R.string.google_news);
-        subMenuNews.add(0, HOTENTRY_MENU_ID, 2, R.string.hotentry);
-        subMenuNews.add(0, NIFTY_NEWS_MENU_ID, 3, R.string.nifty_news);
-        subMenuNews.add(0, KETAI_MENU_ID, 4, R.string.ketai_news);
-        subMenuNews.add(0, CLOUD_MENU_ID, 5, R.string.cloud_news);
-        subMenuNews.add(0, ITMEDIA_MENU_ID, 6, R.string.it_media);
-        subMenuNews.add(0, ENGADGET_MENU_ID, 7, R.string.engadget);
-        subMenuNews.add(0, TECH_CRUNCH_MENU_ID, 8, R.string.tech_crunch);
-        subMenuNews.add(0, GIGAZINE, 9, R.string.gigazine);
-        subMenuNews.add(0, MYBROWSER_MENU_ID, 10, R.string.my_browser);
+            subMenuNews.add(0, NIKKEI_NEWS_MENU_ID, 0, R.string.nikkei);
+            subMenuNews.add(0, GOOGLE_NEWS_MENU_ID, 1, R.string.google_news);
+            subMenuNews.add(0, HOTENTRY_MENU_ID, 2, R.string.hotentry);
+            subMenuNews.add(0, NIFTY_NEWS_MENU_ID, 3, R.string.nifty_news);
+            subMenuNews.add(0, KETAI_MENU_ID, 4, R.string.ketai_news);
+            subMenuNews.add(0, CLOUD_MENU_ID, 5, R.string.cloud_news);
+            subMenuNews.add(0, ITMEDIA_MENU_ID, 6, R.string.it_media);
+            subMenuNews.add(0, ENGADGET_MENU_ID, 7, R.string.engadget);
+            subMenuNews.add(0, TECH_CRUNCH_MENU_ID, 8, R.string.tech_crunch);
+            subMenuNews.add(0, GIGAZINE, 9, R.string.gigazine);
+            subMenuNews.add(0, MYBROWSER_MENU_ID, 10, R.string.my_browser);
 
         // Google
         menu.add(0, GOOGLE_MENU_ID, 1, R.string.google);
-
-        // ブログ検索サブメニュー
-        SubMenu subMenuBlog;
-        subMenuBlog = menu.addSubMenu(Menu.NONE, SUB_MENU_BLOG, 2, R.string.subMenu_blog_search);
-        //subMenuBlog.setIcon(android.R.drawable.ic_menu_directions);
-
-        // android 開発
-        subMenuBlog.add(0, ANDROID_DEV_BLOG_SEARCH, 0, R.string.android_dev_blog_seach);
-        // Nexus7
-        subMenuBlog.add(0, NEXUS7_BLOG_SEARCH, 0, R.string.nexus7_blog_seach);
-        // Android
-        subMenuBlog.add(0, ANDROID_BLOG_SEARCH, 0, R.string.android_blog_seach);
 
         // マニュアルサブメニュー
         //SubMenu subMenuManual;
@@ -97,36 +85,47 @@ public class OptionMenu {
         //subMenuManual.add(0, GIT_MANUAL, 0, R.string.git_manual);
 
         // 次のニュース
-        menu.add(0, NEXT_NEWS_MENU_ID, 3, R.string.next_news);
+        menu.add(0, NEXT_NEWS_MENU_ID, 2, R.string.next_news);
 
         // 共有する
-        menu.add(0, SENDTO_MENU_ID, 4, R.string.subMenu_sendto);
+        menu.add(0, SENDTO_MENU_ID, 3, R.string.subMenu_sendto);
+
+        // 閉じる
+        menu.add(0, FINISH_MENU_ID, 4, R.string.close);
 
         // その他サブメニュー
         SubMenu subMenuOther;
         subMenuOther = menu.addSubMenu(Menu.NONE, SUB_MENU_OTHER, 5, R.string.subMenu_other);
 
-
 //        subMenuBookmark = menu.addSubMenu(Menu.NONE, SUB_MENU_BOOKMARK, 4, R.string.subMenu_bookmark);
         //subMenuBookmark.setIcon(android.R.drawable.ic_menu_directions);
 
-        //新しいタブを開く
-        subMenuOther.add(Menu.NONE,  NEW_TAB, 0, R.string.new_tab);
-        // 別のブラウザで開く
-        subMenuOther.add(Menu.NONE, OTHER_BROWSER, 1, R.string.other_browser);
-        // 拡大率を表示
-        subMenuOther.add(Menu.NONE, SHOW_SCALE, 2, R.string.show_scale);
+            //新しいタブを開く
+            subMenuOther.add(Menu.NONE,  NEW_TAB, 0, R.string.new_tab);
+            // 別のブラウザで開く
+            subMenuOther.add(Menu.NONE, OTHER_BROWSER, 1, R.string.other_browser);
+            // 拡大率を表示
+            subMenuOther.add(Menu.NONE, SHOW_SCALE, 2, R.string.show_scale);
 
-        //追加
-        subMenuOther.add(Menu.NONE,  ADD_BOOKMARK_MENU_ID,  3, R.string.add_bookmark);
-        //参照
-        subMenuOther.add(Menu.NONE, VIEW_BOOKMARK_MENU_ID, 4, R.string.view_bookmark);
+            //追加
+            subMenuOther.add(Menu.NONE,  ADD_BOOKMARK_MENU_ID,  3, R.string.add_bookmark);
+            //参照
+            subMenuOther.add(Menu.NONE, VIEW_BOOKMARK_MENU_ID, 4, R.string.view_bookmark);
 
-        // 設定
-        subMenuOther.add(Menu.NONE, SETTING_MENU_ID, 5, R.string.setting);
+            // 設定
+            subMenuOther.add(Menu.NONE, SETTING_MENU_ID, 5, R.string.setting);
 
-        // 閉じる
-        menu.add(0, FINISH_MENU_ID, 8, R.string.close);
+        // ブログ検索サブメニュー
+        SubMenu subMenuBlog;
+        subMenuBlog = menu.addSubMenu(Menu.NONE, SUB_MENU_BLOG, 7, R.string.subMenu_blog_search);
+        //subMenuBlog.setIcon(android.R.drawable.ic_menu_directions);
+
+            // android 開発
+            subMenuBlog.add(0, ANDROID_DEV_BLOG_SEARCH, 0, R.string.android_dev_blog_seach);
+            // Nexus7
+            subMenuBlog.add(0, NEXUS7_BLOG_SEARCH, 0, R.string.nexus7_blog_seach);
+            // Android
+            subMenuBlog.add(0, ANDROID_BLOG_SEARCH, 0, R.string.android_blog_seach);
 
         return menu;
     }
