@@ -12,6 +12,7 @@ public class Entry {
     private String title = "";
     private int scale = 100;
     private boolean xlarge = false;      // xlarge true=タブレット、false=タブレットでない
+    private int newsIndex = 1;
 
     public String getUrl() {
         return url;
@@ -25,6 +26,9 @@ public class Entry {
         return scale;
     }
 
+    public int getNewsIndex() {
+        return newsIndex;
+    }
 
     public boolean getXlarge() {
         return xlarge;
@@ -54,5 +58,13 @@ public class Entry {
 
     public void setXlarge(Context context) {
         xlarge = context.getResources().getBoolean(R.bool.isTablet);
+    }
+
+    public void setNewsIndex(int newsIndex) {
+        this.newsIndex = newsIndex;
+    }
+
+    public void setNewsIndexNext() {
+        this.newsIndex++;
     }
 }

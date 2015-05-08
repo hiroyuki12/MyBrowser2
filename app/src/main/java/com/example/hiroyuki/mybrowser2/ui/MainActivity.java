@@ -39,7 +39,6 @@ public class MainActivity extends Activity {
     private WebView webView;
     private Entry entry = new Entry();
     private String bookmarkFileName = "bookmark.txt";
-    private int newsIndex = 1;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -204,11 +203,11 @@ public class MainActivity extends Activity {
     // メニューを選択した時の処理
     public boolean onMenuItemSelected(int featureId, MenuItem item) {
         OptionMenu o = new OptionMenu();
-        String[] url = o.getUrl(item, newsIndex);
+        String[] url = o.getUrl(item, entry.getNewsIndex());
 
         if (url[0] != "") {
             webView.loadUrl(url[0]);
-            newsIndex = Integer.parseInt(url[1]);
+            entry.setNewsIndex(Integer.parseInt(url[1]));
             return super.onMenuItemSelected(featureId, item);
         } else {
             switch (item.getItemId()) {
