@@ -47,6 +47,12 @@ public class MainActivity extends Activity {
         entry.setXlarge(this);
         requestWindowFeature(Window.FEATURE_NO_TITLE);  //アクションバーを非表示にする
         setContentView(R.layout.activity_main);  //既存のコード
+
+        OpenUrl();
+    }
+
+    private void OpenUrl()
+    {
         webView = (WebView) findViewById(R.id.webview);  // Webビューの作成
         Log.d("MyBrowser", "onCreate(1)");
 
@@ -165,6 +171,7 @@ public class MainActivity extends Activity {
             webView.loadUrl(url);
             Log.d("MyBrowser", "start(2)");
         }
+
     }
 
     //戻るボタンで前のページに戻る
